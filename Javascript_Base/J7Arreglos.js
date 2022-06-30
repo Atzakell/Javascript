@@ -28,3 +28,8 @@ console.log(colores);
 
 colores.pop();  //quita el ultimo elemento
 console.log(colores);
+
+//ejecutar una funcion por cada elemento
+colores.forEach(function(el, index){
+  console.log(`<li id='${index}'>${el}</li>`);
+})

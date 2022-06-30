@@ -1,7 +1,7 @@
-
 let a=new String('Hola');
 console.log(a);
 
+//declaraciones
 const b={}
 console.log(b);
 
